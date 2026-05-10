@@ -7,7 +7,12 @@ authors = [
     { name = "cr2003", email = "crodrigo2003@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "astropy>=7.2.0",
+    "setuptools>=82.0.1",
+    "sympy>=1.14.0",
+    "vpython>=7.6.5",
+]
 
 [tool.uv.workspace]
 members = ["Algebra", "Numeros_Complejos", "Trigonometria"] # Añade aquí tus carpetas actuales
