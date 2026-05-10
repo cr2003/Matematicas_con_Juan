@@ -1,0 +1,17 @@
+[project]
+name = "matematicas-con-juan"
+version = "0.1.0"
+description = "Repositorio central de ejercicios de matemáaticas"
+readme = "README.md"
+authors = [
+    { name = "cr2003", email = "crodrigo2003@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["Algebra", "Numeros_Complejos", "Trigonometria"] # Añade aquí tus carpetas actuales
+
+[build-system]
+requires = ["uv_build>=0.11.8,<0.12.0"]
+build-backend = "uv_build"

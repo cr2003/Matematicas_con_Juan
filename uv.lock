@@ -1,0 +1,31 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[manifest]
+members = [
+    "algebra",
+    "matematicas-con-juan",
+    "numeros-complejos",
+    "trigonometria",
+]
+
+[[package]]
+name = "algebra"
+version = "0.1.0"
+source = { editable = "Algebra" }
+
+[[package]]
+name = "matematicas-con-juan"
+version = "0.1.0"
+source = { editable = "." }
+
+[[package]]
+name = "numeros-complejos"
+version = "0.1.0"
+source = { editable = "Numeros_Complejos" }
+
+[[package]]
+name = "trigonometria"
+version = "0.1.0"
+source = { editable = "Trigonometria" }
